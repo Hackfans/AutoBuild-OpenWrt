@@ -76,8 +76,8 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/xiaorouji/openwrt-package.git package/lienol
-        git clone "your_github_link" package/"your_folder_name"      
+        git clone https://github.com/coolsnowwolf/lede.git package/lienol
+         
 
     - name: Configuration Customization - Build_x86_64
       env:
